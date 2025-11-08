@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\models\\bdcongresocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\models\\bdcongresocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\migrations\\20251107165559_bdcongreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\migrations\\20251107165559_bdcongreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|c:\\users\\cruza\\onedrive\\escritorio\\idgs903\\congresoapi\\congresoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C611DB5B-8AB0-421F-A1FC-05DB5CD79F63}|CongresoAPI\\CongresoAPI.csproj|solutionrelative:congresoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251107165559_BDCongreso.cs",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Migrations\\20251107165559_BDCongreso.cs",
+              "RelativeDocumentMoniker": "CongresoAPI\\Migrations\\20251107165559_BDCongreso.cs",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Migrations\\20251107165559_BDCongreso.cs",
+              "RelativeToolTip": "CongresoAPI\\Migrations\\20251107165559_BDCongreso.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:56:00.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CongresoAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Program.cs",
+              "RelativeToolTip": "CongresoAPI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:38:34.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CongresoAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\appsettings.json",
+              "RelativeToolTip": "CongresoAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T16:07:25.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BdCongresoContext.cs",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Models\\BdCongresoContext.cs",
+              "RelativeDocumentMoniker": "CongresoAPI\\Models\\BdCongresoContext.cs",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Models\\BdCongresoContext.cs",
+              "RelativeToolTip": "CongresoAPI\\Models\\BdCongresoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:06:28.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParticipantesController.cs",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Controllers\\ParticipantesController.cs",
+              "RelativeDocumentMoniker": "CongresoAPI\\Controllers\\ParticipantesController.cs",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Controllers\\ParticipantesController.cs",
+              "RelativeToolTip": "CongresoAPI\\Controllers\\ParticipantesController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:43:22.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Participante.cs",
+              "DocumentMoniker": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Models\\Participante.cs",
+              "RelativeDocumentMoniker": "CongresoAPI\\Models\\Participante.cs",
+              "ToolTip": "C:\\Users\\cruza\\OneDrive\\Escritorio\\IDGS903\\CongresoAPI\\CongresoAPI\\Models\\Participante.cs",
+              "RelativeToolTip": "CongresoAPI\\Models\\Participante.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:37:39.781Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

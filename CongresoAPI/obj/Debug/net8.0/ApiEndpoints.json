@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "CongresoAPI.Controllers.ParticipantesController",
+    "Method": "GetListado",
+    "RelativePath": "api/listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "q",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CongresoAPI.Controllers.ParticipantesController",
+    "Method": "GetParticipante",
+    "RelativePath": "api/participante/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CongresoAPI.Controllers.ParticipantesController",
+    "Method": "RegistrarParticipante",
+    "RelativePath": "api/registro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CongresoAPI.Controllers.CrearParticipanteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
