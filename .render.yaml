@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: congreso-api
+    env: dotnet
+    rootDir: "CongresoAPI"
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/CongresoAPI.dll"
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
