@@ -1,10 +1,11 @@
 services:
   - type: web
-    name: congreso-api
-    env: dotnet
-    rootDir: "CongresoAPI"
-    buildCommand: "dotnet publish -c Release -o out"
-    startCommand: "dotnet out/CongresoAPI.dll"
+    name: mi-dotnet-app
+    env: docker  # o 'static' si no docker, pero docker es más reproducible
+    repo: https://github.com/IDGS-903-22001411/congreso-backend
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
