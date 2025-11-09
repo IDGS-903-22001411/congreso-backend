@@ -3,22 +3,40 @@ using CongresoAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar puerto dinámico para Render
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
+//  Agregar controladores y Swagger
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
-//  Configurar SQLite
-var connectionString = builder.Configuration.GetConnectionString("cadenaSQL");
+//  Detectar entorno y asignar cadena de conexión
+string connectionString;
+if (builder.Environment.IsDevelopment())
+{
+    connectionString = "Data Source=congreso.db"; // Local (Windows)
+    builder.Logging.AddConsole();
+    Console.WriteLine(" Entorno: Desarrollo (usando congreso.db local)");
+}
+else
+{
+    connectionString = "Data Source=/app/congreso.db"; // Render (Docker)
+    Console.WriteLine(" Entorno: Producción (usando /app/congreso.db en Render)");
+}
+
+// Registrar DbContext con la conexión adecuada
 builder.Services.AddDbContext<BdCongresoContext>(options =>
     options.UseSqlite(connectionString));
 
-//  Política CORS (agrega aquí la URL de tu frontend cuando lo subas)
+// Configurar CORS para React (local + Netlify)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReact", policy =>
         policy.WithOrigins(
-            "http://localhost:5173",
-            "https://localhost:5173",
-            "https://congresotic.netlify.app"   // cambia por la URL real de tu frontend
+            "http://localhost:5173",            // desarrollo local
+            "https://localhost:5173",           // desarrollo HTTPS
+            "https://congresotic.netlify.app"   // producción Netlify
         )
         .AllowAnyHeader()
         .AllowAnyMethod());
@@ -26,7 +44,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-//  Crear base de datos automáticamente (muy importante para Render)
+// Aplicar migraciones automáticamente al iniciar
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<BdCongresoContext>();
@@ -42,9 +60,8 @@ if (app.Environment.IsDevelopment())
 
 // Middlewares
 app.UseCors("AllowReact");
-app.UseHttpsRedirection();
-app.UseAuthorization();
 
+app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
